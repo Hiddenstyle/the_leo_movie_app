@@ -1,9 +1,25 @@
+import { useState } from 'react';
 import './styles/App.css';
 
-function App() {
+const App = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  
+  const handleSearch = (event) => {
+    event.preventDefault();
+    console.log("Search value", searchTerm);
+  }
+
   return (
-    console.log("App component")
+    <div className='header'>
+      <h1 className='headerLogo'>LeoMovies</h1>
+
+      <form className='searchForm'>
+        <input type="text" placeholder='Enter movie name' onChange={(event) => setSearchTerm(event.target.value)} />
+        <button onClick={handleSearch}>Search</button> 
+      </form>
+    </div>      
   );
+
 }
 
 export default App;
