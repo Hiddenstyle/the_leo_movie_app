@@ -1,12 +1,13 @@
 import { useState } from "react";
+import '../styles/Header.css';
 
 const Header = () => {
     const [searchTerm, setSearchTerm] = useState("");
 
     const handleSearch = (event) => {
         event.preventDefault();
-        console.log("Search value", searchTerm);
-    }
+        (searchTerm && console.log("Search value", searchTerm));
+    };
     
     return (
         <div className='header'>
