@@ -1,0 +1,15 @@
+.movieList{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.title{
+    font-size: 15px;
+}
+
+.movieItem{
+    width: 200px;
+    margin-left: 10px;
+}
+
