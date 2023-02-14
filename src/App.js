@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import MovieList from './components/MovieList';
 import useFetch from './customHooks/useFetch';
