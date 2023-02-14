@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Palanquin Dark', sans-serif;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .title{
@@ -10,6 +10,10 @@
     line-height: 20px;
     margin:  0 0 20px 0;
     padding: 0;
+}
+
+.poster{
+    width: 200px;
 }
 
 .movieItem{
