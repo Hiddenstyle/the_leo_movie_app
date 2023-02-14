@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
 .movieList{
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +19,21 @@
 }
 
 .movieItem{
+    position: relative;
     width: 200px;
     margin: 10px;
 }
+
+.material-symbols-outlined {
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: rgb(21, 0, 255);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 800,
+    'GRAD' 0,
+    'opsz' 48;
+  }
