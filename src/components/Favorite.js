@@ -1,14 +1,10 @@
-import { useState } from "react";
 import "../styles/Favorite.css"
 
 const Favorite = () => {
 
-    const [active, setActive] = useState(false);
-
-    const toggleFav = () => {
-        console.log("Click");
-        setActive(!active);
-    }
+    const toggleFav = (e) => {
+        e.target.classList.toggle("favSelected");
+    };
 
     return ( 
         <div className="material-symbols-outlined" onClick={toggleFav} >favorite</div>

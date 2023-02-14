@@ -1,17 +1,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
-
 .material-symbols-outlined {
+    font-family: "Material Symbols Outlined";
     font-size: 40px;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: -15px;
+    right: -15px;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: white;
     text-shadow: 1px 1px 2px black; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.favSelected {
+    color: hotpink;
     font-variation-settings:
-    /* 'FILL' 0, */
     'FILL' 1,
     'wght' 800,
     'GRAD' 0,
