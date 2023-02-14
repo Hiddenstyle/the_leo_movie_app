@@ -9,8 +9,8 @@ const MovieList = ({movieData}) => {
                 movieData.map(
                     (movie) => (
                         <div className="movieItem" key={movie.id}>
+                            <img className="poster" src={POSTER_URL + movie.poster_path} alt=""></img>
                             <h1 className="title">{movie.title}</h1>
-                            <img src={POSTER_URL + movie.poster_path} alt=""></img>
                         </div>
                     )
                 )
